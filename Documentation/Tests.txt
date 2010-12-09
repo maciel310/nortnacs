@@ -1,0 +1,189 @@
+11/13	Angela Dominguez
+
+Created Test program to test SurveyAnalyzer class and Results class
+classes in Test program:	Main
+			SurveyAnalyzer
+			Results
+  
+Tested getAnswers function in Class SurveyAnalyzer
+( initialized answer array with values and created printAnswer function in main class)
+results:	12345
+	678910
+	1112131415
+	Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+        	at test.SurveyAnalyzer.getAnswer(SurveyAnalyzer.java:34)
+        	at test.Main.printAnswers(Main.java:41)
+        	at test.Main.main(Main.java:60)
+	Java Result: 1
+	BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+Class Results
+Tested letterConverter in Class Results
+(created checkLetter function in main class)
+results:	ABCDEBUILD SUCCESSFUL (total time: 0 seconds)
+	
+
+
+11/16
+
+Tested percent function in Class Results
+results:	function working properly  
+
+percent for question 0 answer 0 .09
+percent for question 0 answer 0 9%
+answer7
+part7
+percent for question 0 answer 1 .64
+percent for question 0 answer 1 64%
+answer3
+part3
+percent for question 0 answer 2 .27
+percent for question 0 answer 2 27%
+answer4
+part4
+percent for question 0 answer 3 .36
+percent for question 0 answer 3 36%
+answer5
+part5
+percent for question 0 answer 4 .45
+percent for question 0 answer 4 45%
+row0column5
+answer5
+part5
+percent for question 0 answer 5 .45
+percent for question 0 answer 5 45%
+row0column6
+answer5
+part5
+percent for question 0 answer 6 .45
+percent for question 0 answer 6 45%
+answer1
+part1
+percent for question 1 answer 0 .09
+percent for question 1 answer 0 9%
+answer2
+part2
+percent for question 1 answer 1 .18
+percent for question 1 answer 1 18%
+answer3
+part3
+percent for question 1 answer 2 .27
+percent for question 1 answer 2 27%
+answer4
+part4
+percent for question 1 answer 3 .36
+percent for question 1 answer 3 36%
+answer5
+part5
+percent for question 1 answer 4 .45
+percent for question 1 answer 4 45%
+row1column5
+answer5
+part5
+percent for question 1 answer 5 .45
+percent for question 1 answer 5 45%
+row1column6
+answer5
+part5
+percent for question 1 answer 6 .45
+percent for question 1 answer 6 45%
+answer1
+part1
+percent for question 2 answer 0 .09
+percent for question 2 answer 0 9%
+answer1
+part1
+percent for question 2 answer 1 .09
+percent for question 2 answer 1 9%
+answer1
+part1
+percent for question 2 answer 2 .09
+percent for question 2 answer 2 9%
+answer4
+part4
+percent for question 2 answer 3 .36
+percent for question 2 answer 3 36%
+answer5
+part5
+percent for question 2 answer 4 .45
+percent for question 2 answer 4 45%
+row2column5
+answer5
+part5
+percent for question 2 answer 5 .45
+percent for question 2 answer 5 45%
+row2column6
+answer5
+part5
+percent for question 2 answer 6 .45
+percent for question 2 answer 6 45%
+answer1
+part1
+percent for question 3 answer 0 .09
+percent for question 3 answer 0 9%
+answer10
+part10
+percent for question 3 answer 1 .91
+percent for question 3 answer 1 91%
+answer2
+part2
+percent for question 3 answer 2 .18
+percent for question 3 answer 2 18%
+answer4
+part4
+percent for question 3 answer 3 .36
+percent for question 3 answer 3 36%
+answer3
+part3
+percent for question 3 answer 4 .27
+percent for question 3 answer 4 27%
+row3column5
+answer3
+part3
+percent for question 3 answer 5 .27
+percent for question 3 answer 5 27%
+row3column6
+answer3
+part3
+percent for question 3 answer 6 .27
+percent for question 3 answer 6 27%
+answer1
+part1
+percent for question 4 answer 0 .09
+percent for question 4 answer 0 9%
+answer10
+part10
+percent for question 4 answer 1 .91
+percent for question 4 answer 1 91%
+answer2
+part2
+percent for question 4 answer 2 .18
+percent for question 4 answer 2 18%
+answer4
+part4
+percent for question 4 answer 3 .36
+percent for question 4 answer 3 36%
+answer3
+part3
+percent for question 4 answer 4 .27
+percent for question 4 answer 4 27%
+row4column5
+answer3
+part3
+percent for question 4 answer 5 .27
+percent for question 4 answer 5 27%
+row4column6
+answer3
+part3
+percent for question 4 answer 6 .27
+percent for question 4 answer 6 27%
+answer3
+
+Tested singlePercent function in Class Results
+results:  function working properly
+single percent0.27
+single percent27%
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
