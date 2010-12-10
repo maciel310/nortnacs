@@ -1,6 +1,5 @@
-#summary One-sentence summary of this page.
+#summary Breakdown of Nortnacs input format.
 #labels Phase-Design
-Breakdown of Nortnacs input format.
 
 = Introduction =
 
